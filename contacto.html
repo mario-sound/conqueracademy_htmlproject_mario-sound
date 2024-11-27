@@ -22,17 +22,97 @@
           <li><a href="quienessomos.html">Quiénes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="registro.html">Registro</a></li>
-          <li><a href="login.html">Login</a></li>
           <li><a href="contacto.html">Contacto</a></li>
+          <li><ul>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+            </ul></li>
         </ul>
       </nav>
       <hr />
     </header>
-    <main></main>
+    <main>
+      <section>
+        <fieldset>
+          <address>CONQUER FTE</address>
+          <address><a href="mailto:mail@conquerejemplo.com">mail@conquerejemplo.com</a></address>
+          <address>916000000</address>
+          <a href="https://www.linkedin.com/company/conquer-x/">LinkedIn</a>
+          <a href="https://www.youtube.com/channel/UCY6ncOO-7C107IR3E63EDBw">YouTube</a>
+        </fieldset>
+      </section>
+      <h2>Encuéntranos</h2>
+      <iframe
+        src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.274085117234!2d-3.6675707240998214!3d40.431129322279595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228b444496fbb%3A0xa2949bacf5ca8430!2sC.%20de%20Roma%2C%20Salamanca%2C%2028028%20Madrid!5e0!3m2!1ses!2ses!4v1732726109242!5m2!1ses!2ses"
+        width="600"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <fieldset>
+        <form action="" method="post">
+          <p>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required />
+          </p>
+          <p>
+            <label for="mail">Correo electrónico</label>
+            <input type="email" id="mail" required />
+          </p>
+          <p>
+            <label for="phone">Teléfono de contacto</label>
+            <input type="tel" id="phone" />
+          </p>
+          <p>
+            ¿Ya has estudiado antes con nosotros?
+            <input type="radio" name="antiguoestudiante" id="antiguoestudiante" value="no">
+            <label for="si">Si</label>
+            <input type="radio" name="antiguoestudiante" id="antiguoestudiante" value="no"/>
+            <label for="no">No</label>
+              </p>
+          </p>
+          <p>
+            <label for="interes">¿Qué te gustaría estudiar?</label><br />
+            <select name="interes" id="interes" multiple size="5">
+              <option value="fullstack">Master Full Stack</option>
+              <option value="ciberseguridad">Master Ciberseguridad</option>
+              <option value="IA">Master en Inteligencia Artificial</option>
+              <option value="blockchain">Master en Blockchain</option>
+              <option value="otros">Otros</option>
+            </select>
+          </p>
+          <p>
+            <input type="checkbox" name="novedades" id="novedades">
+            <label for="novedades">Marca la casilla si quieres recibir novedades y ofertas</label>
+          </p>
+          <button>Enviar</button>
+        </form>
+      </fieldset>
+    </main>
     <footer>
       <hr />
       <p>Copyright - 2024 Conquer Blocks Academy</p>
+      <section>
+        <nav>
+          <ul>
+            <li>
+              <a href="./legal/terminosycondiciones.html"
+                >Términos y condiciones</a
+              >
+            </li>
+            <li>
+              <a href="./legal/politicadecookies.html">Política de cookies</a>
+            </li>
+            <li>
+              <a href="./legal/politicadeprivacidad.html"
+                >Política de privacidad</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
     </footer>
   </body>
 </html>

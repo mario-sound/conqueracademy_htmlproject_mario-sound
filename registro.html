@@ -22,17 +22,116 @@
           <li><a href="quienessomos.html">Quiénes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="registro.html">Registro</a></li>
-          <li><a href="login.html">Login</a></li>
           <li><a href="contacto.html">Contacto</a></li>
+          <li>
+            <ul>
+              <li><a href="registro.html">Registro</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <hr />
     </header>
-    <main></main>
+    <main>
+      <h2>Regístrate</h2>
+      <fieldset>
+        <legend>Datos personales</legend>
+        <form action="#" method="post" enctype="multipart/form-data">
+          <p>
+            <label for="name">Nombre</label>
+            <input
+              type="text"
+              id="name"
+              maxlength="50"
+              placeholder="Tu nombre"
+              required
+            />
+          </p>
+          <p>
+            <label for="surname">Apellidos</label>
+            <input
+              type="text"
+              id="surname"
+              maxlength="50"
+              placeholder="Apellido1 Apellido2"
+              required
+            />
+          </p>
+          <p>
+            <label for="mail">Correo electrónico</label>
+            <input
+              type="email"
+              id="mail"
+              maxlength="50"
+              placeholder="tunombre@tudominio.com"
+              size="24"
+              required
+            />
+          </p>
+          <p>
+            <label for="fechanacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fechanacimiento" maxlength="50" required />
+          </p>
+          <p>
+            <label for="direccion">Dirección</label>
+            <input
+              type="text"
+              id="direccion"
+              size="60"
+              maxlength="500"
+              placeholder="C/nombre-calle, 00, Nºpiso y puerta, CP, Ciudad, Población, País."
+            />
+          </p>
+          <p>
+            <label for="pagweb">Página web</label>
+            <input
+              type="url"
+              id="pagweb"
+              placeholder="https:/www.tu-pagina-web.com"
+              size="30"
+            />
+          </p>
+          <p>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto" />
+          </p>
+          <p>
+            <label for="bio">Biografía</label><br />
+            <textarea
+              name="bio"
+              id="bio"
+              cols="45"
+              rows="5"
+              placeholder="Escribe aquí tu biografía"
+            ></textarea>
+          </p>
+          <button>Enviar</button>
+        </form>
+      </fieldset>
+    </main>
     <footer>
       <hr />
       <p>Copyright - 2024 Conquer Blocks Academy</p>
+      <section>
+        <nav>
+          <ul>
+            <li>
+              <a href="./legal/terminosycondiciones.html"
+                >Términos y condiciones</a
+              >
+            </li>
+            <li>
+              <a href="./legal/politicadecookies.html">Política de cookies</a>
+            </li>
+            <li>
+              <a href="./legal/politicadeprivacidad.html"
+                >Política de privacidad</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
     </footer>
   </body>
 </html>
